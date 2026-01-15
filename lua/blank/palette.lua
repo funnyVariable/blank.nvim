@@ -1,0 +1,35 @@
+return {
+	Pdark = {
+		white = "#d0d0d0",
+		black = "#000000",
+		red = "#eb0101",
+		yellow = "#b68600",
+		green = "#03b355",
+		blue = "#0027ff",
+
+		string = "#997171",
+		lineNr = "#444444",
+		ignoredFile = "#666666",
+		indentMarker = "#333333",
+		diffAddBg = "#243024",
+		diffChangeBg = "#302915",
+		diffDeleteBg = "#2d2222",
+	},
+	Plight = {
+		white = "#ffffff",
+		black = "#000000",
+		red = "#eb0101",
+		yellow = "#876500",
+		green = "#008000",
+		blue = "#001ca6",
+
+		string = "#bc3333",
+		lineNr = "#606060",
+		comment = "#505050",
+		ignoredFile = "#aaaaaa",
+		indentMarker = "#cccccc",
+		diffAddBg = "#beffbe",
+		diffChangeBg = "#f5d36e",
+		diffDeleteBg = "#ffbebe",
+	},
+}
