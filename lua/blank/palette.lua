@@ -1,5 +1,5 @@
 return {
-	Pdark = {
+	dark = {
 		white = "#d0d0d0",
 		black = "#000000",
 		red = "#eb0101",
@@ -14,8 +14,12 @@ return {
 		diffAddBg = "#243024",
 		diffChangeBg = "#302915",
 		diffDeleteBg = "#2d2222",
+		comment = "#767676",
+    search = "#463600",
+    searchFg = "#ffc400",
+    visual = "#444444",
 	},
-	Plight = {
+	light = {
 		white = "#ffffff",
 		black = "#000000",
 		red = "#eb0101",
