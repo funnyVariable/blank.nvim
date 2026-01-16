@@ -1,6 +1,6 @@
 return {
 	dark = {
-		white = "#d0d0d0",
+		white = "#eeeeee",
 		black = "#000000",
 		red = "#eb0101",
 		yellow = "#b68600",
