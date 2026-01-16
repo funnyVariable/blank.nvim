@@ -1,0 +1,89 @@
+local M = {}
+
+local p = require("blank.palette").dark
+
+M.setup = function()
+	return {
+		Normal = { bg = p.black, fg = p.white },
+		String = { fg = p.string },
+		Number = { fg = p.red },
+		Boolean = { fg = p.red },
+		Visual = { bg = p.visualBg },
+		Search = { bg = p.search, fg = p.searchFg },
+		CurSearch = { bg = p.visualBg },
+		CursorLineNr = { fg = p.white },
+		Comment = { fg = p.comment },
+		LineNr = { bg = p.black, fg = p.lineNr },
+		SignColumn = { bg = p.black, fg = p.lineNr },
+		Character = { fg = p.white },
+		Float = { fg = p.white },
+		Keyword = { fg = p.white },
+		Label = { fg = p.white },
+		Operator = { fg = p.white },
+		Conditional = { fg = p.white },
+		Function = { fg = p.white },
+		Identifier = { fg = p.white },
+		Special = { fg = p.white },
+		SpecialKey = { fg = p.white },
+		Statement = { fg = p.white },
+		Tag = { fg = p.white },
+		Directory = { fg = p.white },
+		MatchParen = { fg = p.white },
+		Constant = { fg = p.white },
+		Define = { fg = p.white },
+		ErrorMsg = { fg = p.white },
+		PreProc = { fg = p.white },
+		SpellCap = { fg = p.white },
+		SpellLocal = { fg = p.white },
+		StorageClass = { fg = p.white },
+		Changed = { bg = p.black, fg = p.yellow },
+		Added = { bg = p.black, fg = p.green },
+		Removed = { bg = p.black, fg = p.red },
+		DiffAdd = { bg = p.diffAddBg, fg = p.white },
+		DiffChange = { bg = p.diffChangeBg, fg = p.white },
+		DiffDelete = { bg = p.diffDeleteBg, fg = p.white },
+
+		DiagnosticError = { sp = p.red, fg = p.red },
+		DiagnosticWarn = { sp = p.yellow, fg = p.yellow },
+		DiagnosticInfo = { sp = p.blue, fg = p.blue },
+		DiagnosticHint = { sp = p.blue, fg = p.blue },
+		DiagnosticOk = { sp = p.blue, fg = p.blue },
+
+		DiagnosticUnderlineError = { undercurl = true, sp = p.red },
+		DiagnosticUnderlineWarn = { undercurl = true, sp = p.yellow },
+		DiagnosticUnderlineInfo = { undercurl = true, sp = p.blue },
+		DiagnosticUnderlineHint = { undercurl = true, sp = p.blue },
+		DiagnosticUnderlineOk = { undercurl = true, sp = p.blue },
+
+		-- Plugins
+		GitSignsStagedChange = { bg = p.black, fg = p.blue },
+		GitSignsStagedAdd = { bg = p.black, fg = p.blue },
+		GitSignsStagedDelete = { bg = p.black, fg = p.blue },
+		GitSignsAddInline = { bg = p.gitSignsAddInlineBg  },
+		GitSignsDeleteInline = { bg = p.gitSignsDeleteInlineBg  },
+
+		BufferCurrent = { bg = p.black, fg = p.white },
+		BufferCurrentMod = { bg = p.black, fg = p.yellow },
+		BufferInactive = { bg = p.white, fg = p.black },
+		BufferInactiveMod = { bg = p.white, fg = p.yellow },
+		BufferVisible = { bg = p.white, fg = p.black },
+
+		NvimTreeGitNewIcon = { bg = nil, fg = p.green },
+		NvimTreeGitDirtyIcon = { bg = nil, fg = p.yellow },
+		NvimTreeGitDeletedIcon = { bg = nil, fg = p.red },
+		NvimTreeGitIgnoredIcon = { bg = nil, fg = p.ignoredFile },
+		NvimTreeFolderName = { bg = nil, fg = p.white },
+		NvimTreeSymlinkFolderName = { bg = nil, fg = p.white },
+		NvimTreeOpenedFolderName = { bg = nil, fg = p.white },
+		NvimTreeEmptyFolderName = { bg = nil, fg = p.white },
+		NvimTreeFolderArrowClosed = { bg = nil, fg = p.white },
+		NvimTreeFolderArrowOpen = { bg = nil, fg = p.white },
+		NvimTreeFolderIcon = { bg = nil, fg = p.white },
+		NvimTreeIndentMarker = { bg = nil, fg = p.indentMarker },
+
+		IblIndent = { fg = "#222222", bg = "NONE" },
+		IblScope = { fg = "#333333", bg = "NONE" },
+	}
+end
+
+return M
