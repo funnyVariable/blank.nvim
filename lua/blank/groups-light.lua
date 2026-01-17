@@ -72,6 +72,7 @@ M.setup = function()
 		NvimTreeGitDirtyIcon = { fg = p.yellow },
 		NvimTreeGitDeletedIcon = { fg = p.red },
 		NvimTreeGitIgnoredIcon = { fg = p.ignoredFile },
+    NvimTreeGitRenamedIcon = { bg = nil, fg = p.blue },
 		NvimTreeFolderName = { fg = p.black },
 		NvimTreeSymlinkFolderName = { fg = p.black },
 		NvimTreeOpenedFolderName = { fg = p.black },
