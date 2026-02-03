@@ -59,8 +59,8 @@ M.setup = function()
 		GitSignsStagedChange = { bg = p.white, fg = p.blue },
 		GitSignsStagedAdd = { bg = p.white, fg = p.blue },
 		GitSignsStagedDelete = { bg = p.white, fg = p.blue },
-		GitSignsAddInline = { bg = p.gitSignsAddInlineBg  },
-		GitSignsDeleteInline = { bg = p.gitSignsDeleteInlineBg  },
+		GitSignsAddInline = { bg = p.gitSignsAddInlineBg },
+		GitSignsDeleteInline = { bg = p.gitSignsDeleteInlineBg },
 
 		BufferCurrent = { bg = p.white, fg = p.black },
 		BufferCurrentMod = { bg = p.white, fg = p.yellow },
@@ -72,7 +72,7 @@ M.setup = function()
 		NvimTreeGitDirtyIcon = { fg = p.yellow },
 		NvimTreeGitDeletedIcon = { fg = p.red },
 		NvimTreeGitIgnoredIcon = { fg = p.ignoredFile },
-    NvimTreeGitRenamedIcon = { bg = nil, fg = p.blue },
+		NvimTreeGitRenamedIcon = { bg = nil, fg = p.blue },
 		NvimTreeFolderName = { fg = p.black },
 		NvimTreeSymlinkFolderName = { fg = p.black },
 		NvimTreeOpenedFolderName = { fg = p.black },
@@ -84,6 +84,12 @@ M.setup = function()
 
 		IblIndent = { fg = "#cccccc", bg = "NONE" },
 		IblScope = { fg = "#a8a8a8", bg = "NONE" },
+
+		-- Treesitter
+		["@variable"] = { fg = p.black },
+		["@type"] = { fg = p.black },
+		["@punctuation"] = { fg = p.black },
+		["@module"] = { fg = p.black },
 	}
 end
 
